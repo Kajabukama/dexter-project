@@ -6,20 +6,21 @@ class Carousel extends Component {
       return (
          <div>
             <div className="heroCarousel-container">
-               <h1 className="offscreen">Farrer &amp; Co is an independent law firm with a rich history</h1>
+               <h1 className="offscreen">Dexter Attorneys is an independent law firm with a rich history</h1>
                <div className="heroCarousel owl-carousel">
                   <div className="carousel-slot heroCarousel-item theme-green" data-dot='<button>Spotlight on</button>' style={ styles.slider_1 }>
                      <div className="heroCarousel-header-wrap">
-                        <h2 className="heroCarousel-header">Sponsoring the Hix Award 2018</h2>
+                        <h2 className="heroCarousel-header">Partipating to Reform Legal Practices in Tanzania
+</h2>
                      </div>
 
                      <div className="heroCarousel-body-wrap">
                         <div className="heroCarousel-body">
                            <span className="heroCarousel-body-line"></span>
                            <p className="heroCarousel-description">
-                              We are proud to support artists at the forefront of the UK’s emerging art scene</p>
+                              We are proud to be part and support various legal reforms in Tanzania</p>
                            <p >
-                              <Link to="#uniqueID//https://www.youtube.com/watch?v=dsuE5Mr00Ms&amp;feature=youtu.be" className="button-dark-blue" data-lity>Watch video</Link>
+                              <Link to="#uniqueID//https://www.youtube.com/watch?v=m1azLpVj7R8&amp;feature=youtu.be" className="button-dark-blue" data-lity>Watch video</Link>
                            </p>
                         </div>
                      </div>

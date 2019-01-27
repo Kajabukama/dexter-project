@@ -4874,7 +4874,8 @@ print {
 	width: 100%;
 	text-align: left;
 	position: relative;
-	color: #b84934;
+	color: #f39c12;
+	text-transform: uppercase;
 	outline: none;
 	font-family: Graphik-Medium, Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -4884,7 +4885,7 @@ print {
 }
 
 .footer .newsletter-header:focus {
-	text-decoration: underline
+	text-decoration: none
 }
 
 @media screen and (max-width:63.938em) {
@@ -7990,7 +7991,7 @@ input[type=number] {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	border-bottom: 1px solid #19307E
+	border-bottom: 1px solid rgba(25, 49, 126, 0.349)
 }
 
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-accordion-heading {
@@ -8008,7 +8009,7 @@ input[type=number] {
 	font-size: 1.375rem;
 	margin-bottom: 0;
 	color: #19307E;
-	border-top: 1px solid #19307E;
+	border-top: 1px solid rgba(25, 49, 126, 0.349);
 	padding: 20px 50px 20px 10px;
 	padding: 1.25rem 3.125rem 1.25rem .625rem
 }
@@ -8042,7 +8043,7 @@ input[type=number] {
 }
 
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-accordion-heading.open {
-	background-color: #E9B253
+	background-color: rgba(233, 178, 83, 0.26)
 }
 
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-accordion-heading.open:after {
@@ -8053,12 +8054,12 @@ input[type=number] {
 
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-accordion-heading:focus,
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-accordion-heading:hover {
-	background-color: #E9B253
+	background-color: rgba(233, 178, 83, 0.26)
 }
 
 .nc-tabs.nc-tabs-always_accordion.accordion .nc-tabs-tab-content {
 	overflow: hidden;
-	background-color: #E9B253;
+	background-color: rgba(233, 178, 83, 0.26);
 	padding: 0 10px;
 	padding: 0 .625rem
 }
@@ -10451,7 +10452,7 @@ print {
 	display: none;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+	width: 20%;
 	max-width: 1300px;
 	margin: 0 auto;
 	color: #fff;
@@ -10460,7 +10461,7 @@ print {
 	font-size: .9375rem;
 	padding: 20px 55px 20px 20px;
 	padding: 1.25rem 3.4375rem 1.25rem 1.25rem;
-	background-color: rgba(68, 119, 140, .95)
+	background-color: #f39c12;
 }
 
 @media (min-width:48em) {
@@ -11037,7 +11038,7 @@ print {
 		min-width: 0;
 		width: 45%;
 		padding-right: 30px;
-		float: left
+		float: left;
 	}
 }
 

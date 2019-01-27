@@ -26,7 +26,7 @@ class Footer extends Component {
                   <li><Link to="">Legal and Regulatory</Link></li>
                </ul>
                <div className="footer-copyright">
-                  &copy; Dexter Attorneys Co LLP 2019. All rights reserved
+                  &copy; Dexter Attorneys &copy; 2019. All rights reserved
                </div>
             </div>
          </footer>

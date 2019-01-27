@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Submenu from './Submenu';
 
-class Navbar extends Component {
+class Header extends Component {
    render() {
       return (
-         <div>
             <header className="header">
                <div className="content-wrap">
                   <div className="header-logo">
@@ -61,9 +59,7 @@ class Navbar extends Component {
                   </ul>
                </div>
             </header>
-            <Submenu/>
-            </div>
             )
          }
       }
-export default Navbar;
+export default Header;
