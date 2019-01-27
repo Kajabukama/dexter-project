@@ -8,14 +8,14 @@ import Navigation from "./components/Shared/Navbar/Navigation";
 class App extends Component {
 	render() {
 		return (
-			<React.Fragment>
+			<div>
 				<Header/>
 				<div className="mainContent">
 					<Navigation/>
 					<Routes/>
 					<Footer/>
 				</div>
-			</React.Fragment>
+			</div>
 			
 		);
 	}

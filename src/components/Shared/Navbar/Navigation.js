@@ -106,7 +106,7 @@ class Navigation extends Component {
                         </div>
                      </li>
                      <li className="styleClients">
-                        <Link className="" to="">People</Link>
+                        <Link className="" to="/our-people">People</Link>
                      </li>
                      <li className="styleClients">
                         <Link className="" to="/our-story">Our Story</Link>
