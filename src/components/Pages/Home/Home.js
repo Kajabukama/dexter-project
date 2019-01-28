@@ -13,7 +13,7 @@ class HomePage extends Component {
                      <div className="col-12 ">
                         <div className="wysiwyg" data-title="">
                            <h2><span className="largeIntro"><span class="largeIntro">The balance of experience and innovation, of in-depth knowledge and fresh thinking, of insight and vision makes us who we are. But it does not end there: Our commitment is full focus on client service and matching solutions to our clients' needs.</span></span></h2>
-                           <p><a className="button-theme" title="LEARN MORE" href="our-story/index.html">LEARN MORE</a></p>
+                           <p><Link className="button-theme" title="LEARN MORE" to="/">LEARN MORE</Link></p>
                         </div>
                      </div>
                   </div>

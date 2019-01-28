@@ -13,7 +13,7 @@ class Navigation extends Component {
                      <button className="siteNavMobileHeader-close">Close</button>
                   </div>
                   <ul className="siteNav-content">
-                     <li className="styleClients has-children">
+                     {/* <li className="styleClients has-children">
                         <Link className="" to="">Clients &amp; Sectors</Link>
                         <div className="siteNav-dropdown dropdown-3columns">
                            <h3 className="siteNav-dropdown-title">
@@ -72,11 +72,9 @@ class Navigation extends Component {
                                     <li><Link className="" to="">Universities</Link></li>
                                  </ul>
                               </li>
-
                            </ul>
-
                         </div>
-                     </li>
+                     </li> */}
                      <li className="styleClients has-children">
                         <Link className="" to="">Legal Services</Link>
 

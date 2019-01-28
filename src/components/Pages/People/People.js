@@ -59,6 +59,56 @@ class People extends Component {
                                  </div>
                               </div>
                            </li>
+
+                           <li className="listing-col-4">
+                              <div className="personBlock">
+                                 <figure className="personBlock-img">
+                                    <a href="/people/Uzma-Ahmed/">
+                                       <img alt="Dexter Attorneys | Uzma Ahmed" src={ img } style={styles.imgStyle} />
+                                    </a>
+                                 </figure>
+                                 <div className="personBlock-details">
+                                    <a href="/people/Uzma-Ahmed/" className="personBlock-link find-tracking-link" data-tracking="">
+                                       <h2 className="personBlock-name">Uzma Ahmed</h2>
+                                       <span className="personBlock-jobtitle">Associate</span>
+                                    </a>
+
+                                    <ul className="personBlock-experties listDash">
+                                       <li>Corporate</li>
+                                    </ul>
+
+                                    <ul className="personBlock-contact contactList">
+                                       <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
+                                       <li><a className="icon-linkedin" href="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
+
+                           <li className="listing-col-4">
+                              <div className="personBlock">
+                                 <figure className="personBlock-img">
+                                    <a href="/people/Uzma-Ahmed/">
+                                       <img alt="Dexter Attorneys | Uzma Ahmed" src={ img1 } style={styles.imgStyle} />
+                                    </a>
+                                 </figure>
+                                 <div className="personBlock-details">
+                                    <a href="/people/Uzma-Ahmed/" className="personBlock-link find-tracking-link" data-tracking="">
+                                       <h2 className="personBlock-name">Uzma Ahmed</h2>
+                                       <span className="personBlock-jobtitle">Associate</span>
+                                    </a>
+
+                                    <ul className="personBlock-experties listDash">
+                                       <li>Corporate</li>
+                                    </ul>
+
+                                    <ul className="personBlock-contact contactList">
+                                       <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
+                                       <li><a className="icon-linkedin" href="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </li>
                         </ul>
                      </div>
                   </div>
@@ -69,8 +119,8 @@ class People extends Component {
    }
 }
 export default People;
-const img = require('../../../assets/images/content/contact-person.jpg');
-const img1 = require('../../../assets/images/content/bamoah_hs20crop.jpg');
+const img = require('../../../assets/images/content/woman_office.jpg');
+const img1 = require('../../../assets/images/content/man_office.jpg');
 const styles = {
    imgStyle: {
       width: 150,
