@@ -44,38 +44,6 @@ class Story extends Component {
                                                    </div>
                                                 </div>
                                              </li>
-                                             <li>
-                                                <button className="nc-tabs-accordion-heading" data-tab-id="tab-03">Diversity.</button>
-                                                <div id="tab-03" className="nc-tabs-tab-content">
-                                                   <div className="accordion-body wysiwyg">
-                                                      <p>Diverse perspectives ultimately make for more rounded thinking and better answers for you.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <button className="nc-tabs-accordion-heading" data-tab-id="tab-04">Relationship</button>
-                                                <div id="tab-04" className="nc-tabs-tab-content">
-                                                   <div className="accordion-body wysiwyg">
-                                                      <p>Strong relationships with our communities. It’s what makes us proud.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <button className="nc-tabs-accordion-heading" data-tab-id="tab-05">Transparency</button>
-                                                <div id="tab-05" className="nc-tabs-tab-content">
-                                                   <div className="accordion-body wysiwyg">
-                                                      <p>Our aim is to create lasting relationships with our clients; relationships that provide value for them over time.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <button className="nc-tabs-accordion-heading" data-tab-id="tab-06">Integrity</button>
-                                                <div id="tab-06" className="nc-tabs-tab-content">
-                                                   <div className="accordion-body wysiwyg">
-                                                      <p>This is about you. Giving you pragmatic, proactive, straightforward advice that helps you achieve your goals. Our fee structures are fair and transparent. And we work with you rather than simply for you.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
                                           </ul>
                                        </div>
                                     </div>

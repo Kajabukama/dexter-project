@@ -5863,7 +5863,7 @@ print {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background-color: hsla(0, 0%, 100%, .9);
+	background-color: #E9B253;
 	top: 30px;
 	top: 1.875rem
 }
@@ -5951,7 +5951,7 @@ print {
 }
 
 .hero-body-wrap .hero-body {
-	border-top: 10px solid #fff;
+	border-top: 10px solid #E9B253;
 	padding-top: 10px;
 	padding-top: .625rem
 }

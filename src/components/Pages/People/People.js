@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import PageHeader from '../../Shared/Hero/PageHeader';
-import FilterPeople from './Filter';
 
 class People extends Component {
    render() {
       return (
          <div>
-            <FilterPeople />
             <PageHeader title="Excellence &amp; expertise"/>
             <div className="section">
                <div className="section-wrap">
