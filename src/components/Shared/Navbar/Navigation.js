@@ -113,6 +113,9 @@ class Navigation extends Component {
                         <Link className="" to="">News &amp; Insights</Link>
                      </li>
                      <li className="styleClients">
+                        <Link className="" to="/">Publications</Link>
+                     </li>
+                     <li className="styleClients">
                         <Link className="" to="/contact-us">Contact Us</Link>
                      </li>
                      <li className="socialShare">
