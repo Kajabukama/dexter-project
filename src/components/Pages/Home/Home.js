@@ -40,7 +40,7 @@ class HomePage extends Component {
                      </div>
                      <div className="col-12 ">
                         <section className="relatedContainer">
-                           <h2 className="relatedContainer-header">News &amp; Insights</h2>
+                           <h2 className="relatedContainer-header">Court Updates</h2>
                            <ul className="listing">
                               <li className="listing-col-4">
                                  <div className="newsBlock">
