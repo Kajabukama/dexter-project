@@ -62,15 +62,6 @@ class Contact extends Component {
                                           <div className="wysiwyg" data-title="">
                                              <h2>General Enquiries</h2>
                                              <p>For general enquiries please email: <Link title="enquiries@farrer.co.uk" to="mailto:enquiries@dexter.co.tz">enquiries@dexter.co.tz</Link>. For enquiries about bona vacantia, dissolved companies and intestate estates, please click <Link to="mailto:bvenquiries@dexter.co.tz">here</Link>.</p>
-                                             <h2>Press Office</h2>
-                                             <p>For media enquiries, please contact&nbsp;Yusuph H. Kajabukama on<br />
-                                                <span className="baec5a81-e4d6-4674-97f3-e9220f0136c1" style={styles.fontNormal}>+255 (0)20 3375 7422</span>
-                                                <span style={styles.fontNormal}>,&nbsp;</span>
-                                                <span className="baec5a81-e4d6-4674-97f3-e9220f0136c1" style={styles.fontNormal}>+255 (0)7584 390 655</span>
-                                                <span style={styles.fontNormal}>&nbsp;or email </span>
-                                                <a style={styles.fontBold} href="mailto:info@dexter.co.tz">Press Office</a>
-                                                <span style={ styles.fontNormal }>.</span>
-                                             </p>
                                           </div>
                                        </div>
                                     </div>
@@ -79,7 +70,6 @@ class Contact extends Component {
                            </div>
                         </div>
                      </div>
-
                   </div>
                </div>
             </div>
@@ -88,12 +78,3 @@ class Contact extends Component {
    }
 }
 export default Contact;
-const styles = {
-   fontNormal: {
-      fontSize: '16',
-   },
-   fontBold: {
-      fontweight: 'bold',
-      fontSize: '16'
-   }
-}
