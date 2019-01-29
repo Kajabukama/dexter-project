@@ -78,7 +78,7 @@ class Navigation extends Component {
                      <li className="styleClients has-children">
                         <Link className="" to="">Legal Services</Link>
 
-                        <div className="siteNav-dropdown ">
+                        <div className="siteNav-dropdown">
                            <h3 className="siteNav-dropdown-title">
                               <Link to="">Legal Services</Link>
                            </h3>
@@ -111,12 +111,6 @@ class Navigation extends Component {
                      </li>
                      <li className="styleClients">
                         <Link className="" to="">News &amp; Insights</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="">International</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="">Join Us</Link>
                      </li>
                      <li className="styleClients">
                         <Link className="" to="/contact-us">Contact Us</Link>

@@ -7,15 +7,15 @@ class Footer extends Component {
          <div>
          <footer className="footer">
             <div className="content-wrap content-wrap_top">
-               <button className="newsletter-header toggle-open">Subscribe to our news and events</button>
+               {/* <button className="newsletter-header toggle-open">Subscribe to our news and events</button> */}
             </div>
-            <div className="newsletter-container">
+            {/* <div className="newsletter-container">
                <div className="content-wrap">
                   <p>
                      <iframe src="https://sites-farrer.vuture.net/9/866/landing-pages/farrer-and-co-web-subscription.asp" title="Subscribe to our newsletters"></iframe>
                   </p>
                </div>
-            </div>
+            </div> */}
             <div className="content-wrap content-wrap_bottom">
                <ul className="footer-social">
                   <li><Link to="" className="icon icon-twitter" >Twitter</Link></li>

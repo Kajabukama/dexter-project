@@ -8,7 +8,7 @@ class Carousel extends Component {
             <div className="heroCarousel-container">
                <h1 className="offscreen">Dexter Attorneys is an independent law firm with a rich history</h1>
                <div className="heroCarousel owl-carousel">
-                  <div className="carousel-slot heroCarousel-item theme-green" data-dot='<button>Spotlight on</button>' style={ styles.slider_1 }>
+                  <div className="carousel-slot heroCarousel-item" data-dot='<button>Spotlight on</button>' style={ styles.slider_1 }>
                      <div className="heroCarousel-header-wrap">
                         <h2 className="heroCarousel-header">Partipating to Reform Legal Practices in Tanzania
 </h2>
@@ -24,7 +24,8 @@ class Carousel extends Component {
                            </p>
                         </div>
                      </div>
-                  </div>	<div className="carousel-slot heroCarousel-item theme-blue" data-dot='<button>In the news</button>' style={ styles.slider_2 }>
+                  </div>
+                  <div className="carousel-slot heroCarousel-item theme-blue" data-dot='<button>In the news</button>' style={ styles.slider_2 }>
                      <div className="heroCarousel-header-wrap">
                         <h2 className="heroCarousel-header">2019 - Some things coming our way?</h2>
                      </div>
@@ -37,7 +38,7 @@ class Carousel extends Component {
                            <p><Link to=""  title="" className="button-dark-blue">Read more</Link></p>
                      </div>
                   </div>
-               </div>	<div className="carousel-slot heroCarousel-item theme-blue" data-dot='<button>Testimonials</button>' style={ styles.slider_3 }>
+               </div><div className="carousel-slot heroCarousel-item theme-blue" data-dot='<button>Testimonials</button>' style={ styles.slider_3 }>
                   <div className="heroCarousel-header-wrap">
                      <h2 className="heroCarousel-header">Dexter Attorneys receives accolades across the board</h2>
                   </div>

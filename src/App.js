@@ -8,7 +8,7 @@ import Navigation from "./components/Shared/Navbar/Navigation";
 class App extends Component {
 	render() {
 		return (
-			<div>
+			<div className="theme-yellow">
 				<Header/>
 				<div className="mainContent">
 					<Navigation/>
