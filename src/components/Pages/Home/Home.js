@@ -40,7 +40,7 @@ class HomePage extends Component {
                      </div>
                      <div className="col-12 ">
                         <section className="relatedContainer">
-                           <h2 className="relatedContainer-header">News &amp; Court Updates</h2>
+                           <h2 className="relatedContainer-header">Court Updates</h2>
                            <ul className="listing">
                               <li className="listing-col-4">
                                  <div className="newsBlock">
@@ -106,7 +106,6 @@ class HomePage extends Component {
                                           <span className="newsBlock-topStory">Updates</span>
                                           <time className="newsBlock-date" datetime="2019-01-09">09.01.19</time>
                                           <time className="newsBlock-time" datetime="P0H8M">8 min</time>
-                                          
                                        </div>
                                     </div>
                                     <div className="newsBlock-footer">

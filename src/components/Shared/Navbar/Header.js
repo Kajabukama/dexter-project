@@ -12,11 +12,11 @@ class Header extends Component {
 
                   <div className="header-container">
                      <ul className="header-links">
-                        <li><Link to="" className="">Private Wealth</Link> </li>
+                        {/* <li><Link to="" className="">Private Wealth</Link> </li>
                         <li><Link to="" className="">Businesses </Link> </li>
                         <li><Link to="" className="">Financial Services </Link> </li>
                         <li><Link to="" className="">Not-for-Profit </Link> </li>
-                        <li><Link to="" className="">Education </Link> </li>
+                        <li><Link to="" className="">Education </Link> </li> */}
                      </ul>
                      <ul className="header-util">
                         <li>

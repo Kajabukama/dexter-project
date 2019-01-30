@@ -110,7 +110,7 @@ class Navigation extends Component {
                         <Link className="" to="/our-story">Our Story</Link>
                      </li>
                      <li className="styleClients">
-                        <Link className="" to="">News &amp; Updates</Link>
+                        <Link className="" to="">Court Updates</Link>
                      </li>
                      <li className="styleClients">
                         <Link className="" to="/">Publications</Link>
