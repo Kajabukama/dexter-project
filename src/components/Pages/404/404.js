@@ -16,15 +16,15 @@ class NotFound extends Component {
                            <div>
                               <div className='section '>
                                  <div className='section-wrap'>
-                                    <div class='grid '>
-                                       <div class="col-12 ">
-                                          <div class="wysiwyg" data-title="">
+                                    <div className='grid '>
+                                       <div className="col-12 ">
+                                          <div className="wysiwyg" data-title="">
                                              <h1>Sorry Page Not Found</h1>
                                              <p>Sorry the link is broken or the page you are looking for has been moved, deleted or server error. Please try again later.</p>
                                           </div>
                                        </div>
                                        
-                                       <div class="col-12 ">
+                                       <div className="col-12 ">
                                           
                                        </div>
                                        <div className="col-12 ">

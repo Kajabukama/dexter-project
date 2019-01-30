@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import PageHeader from '../../Shared/Hero/PageHeader';
 
 class People extends Component {
@@ -14,15 +16,15 @@ class People extends Component {
                            <li className="listing-col-4">
                               <div className="personBlock">
                                  <figure className="personBlock-img">
-                                    <a href="/people/sarah-aggarwal/">
+                                    <Link to="/person">
                                        <img alt="Dexter Attorneys | Sarah Nikundiwe" src={img} style={styles.imgStyle} />
-                                    </a>
+                                    </Link>
                                  </figure>
                                  <div className="personBlock-details">
-                                    <a href="/people/james-kajabukama/" class="personBlock-link find-tracking-link" data-tracking="" >
+                                    <Link to="/person" class="personBlock-link find-tracking-link" data-tracking="" >
                                        <h2 className="personBlock-name">Sarah M. Nikundiwe</h2>
                                        <span className="personBlock-jobtitle">Senior Associate</span>
-                                    </a>
+                                    </Link>
                                     <ul className="personBlock-experties listDash">
                                        <li>Commercial Real Estate</li>
                                     </ul>
@@ -36,15 +38,15 @@ class People extends Component {
                            <li className="listing-col-4">
                               <div className="personBlock">
                                  <figure className="personBlock-img">
-                                    <a href="/people/Uzma-Ahmed/">
+                                    <Link to="/person">
                                        <img alt="Dexter Attorneys | Uzma Ahmed" src={ img1 } style={styles.imgStyle} />
-                                    </a>
+                                    </Link>
                                  </figure>
                                  <div className="personBlock-details">
-                                    <a href="/people/Uzma-Ahmed/" className="personBlock-link find-tracking-link" data-tracking="">
+                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
                                        <h2 className="personBlock-name">Uzma Ahmed</h2>
                                        <span className="personBlock-jobtitle">Associate</span>
-                                    </a>
+                                    </Link>
 
                                     <ul className="personBlock-experties listDash">
                                        <li>Corporate</li>
@@ -61,15 +63,15 @@ class People extends Component {
                            <li className="listing-col-4">
                               <div className="personBlock">
                                  <figure className="personBlock-img">
-                                    <a href="/people/Uzma-Ahmed/">
+                                    <Link to="/person">
                                        <img alt="Dexter Attorneys | Uzma Ahmed" src={ img } style={styles.imgStyle} />
-                                    </a>
+                                    </Link>
                                  </figure>
                                  <div className="personBlock-details">
-                                    <a href="/people/Uzma-Ahmed/" className="personBlock-link find-tracking-link" data-tracking="">
+                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
                                        <h2 className="personBlock-name">Uzma Ahmed</h2>
                                        <span className="personBlock-jobtitle">Associate</span>
-                                    </a>
+                                    </Link>
 
                                     <ul className="personBlock-experties listDash">
                                        <li>Corporate</li>
@@ -86,15 +88,15 @@ class People extends Component {
                            <li className="listing-col-4">
                               <div className="personBlock">
                                  <figure className="personBlock-img">
-                                    <a href="/people/Uzma-Ahmed/">
+                                    <Link to="/person">
                                        <img alt="Dexter Attorneys | Uzma Ahmed" src={ img1 } style={styles.imgStyle} />
-                                    </a>
+                                    </Link>
                                  </figure>
                                  <div className="personBlock-details">
-                                    <a href="/people/Uzma-Ahmed/" className="personBlock-link find-tracking-link" data-tracking="">
+                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
                                        <h2 className="personBlock-name">Uzma Ahmed</h2>
                                        <span className="personBlock-jobtitle">Associate</span>
-                                    </a>
+                                    </Link>
 
                                     <ul className="personBlock-experties listDash">
                                        <li>Corporate</li>
@@ -102,7 +104,7 @@ class People extends Component {
 
                                     <ul className="personBlock-contact contactList">
                                        <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
-                                       <li><a className="icon-linkedin" href="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</a></li>
+                                       <li><Link className="icon-linkedin" to="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</Link></li>
                                     </ul>
                                  </div>
                               </div>

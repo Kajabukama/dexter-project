@@ -61,7 +61,7 @@ class Contact extends Component {
                                        <div className="col-12 ">
                                           <div className="wysiwyg" data-title="">
                                              <h2>General Enquiries</h2>
-                                             <p>For general enquiries please email: <Link title="enquiries@farrer.co.uk" to="mailto:enquiries@dexter.co.tz">enquiries@dexter.co.tz</Link>. For enquiries about bona vacantia, dissolved companies and intestate estates, please click <Link to="mailto:bvenquiries@dexter.co.tz">here</Link>.</p>
+                                             <p>For general enquiries please email: <Link title="enquiries@dexter.co.tz" to="mailto:enquiries@dexter.co.tz">enquiries@dexter.co.tz</Link>. For enquiries about bona vacantia, dissolved companies and intestate estates, please click <Link to="mailto:enquiries@dexter.co.tz">here</Link>.</p>
                                           </div>
                                        </div>
                                     </div>

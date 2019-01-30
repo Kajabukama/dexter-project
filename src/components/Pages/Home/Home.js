@@ -40,18 +40,18 @@ class HomePage extends Component {
                      </div>
                      <div className="col-12 ">
                         <section className="relatedContainer">
-                           <h2 className="relatedContainer-header">Court Updates</h2>
+                           <h2 className="relatedContainer-header">News &amp; Court Updates</h2>
                            <ul className="listing">
                               <li className="listing-col-4">
                                  <div className="newsBlock">
                                     <div className="newsBlock-head">
                                        <figure className="newsBlock-img">
-                                          <Link to="">
+                                          <Link to="/court-updates">
                                           <img alt="Farrer & Co | How good are your intentions?" src={ blog01 } />
                                           </Link>
                                        </figure>
                                        <div className="newsBlock-details">
-                                          <span className="newsBlock-topStory">Insight</span>
+                                          <span className="newsBlock-topStory">Updates</span>
                                           <time className="newsBlock-date" datetime="2019-01-09">09.01.19</time>
                                           <time className="newsBlock-time" datetime="P0H5M">5 min</time>
                                           
@@ -59,13 +59,11 @@ class HomePage extends Component {
                                     </div>
                                     <div className="newsBlock-footer">
                                        <h3 className="newsBlock-title">
-                                          <Link className="find-tracking-link" to="">
-                                          How good are your intentions?
+                                          <Link className="find-tracking-link" to="/court-updates">
+                                          Lorem ipsum dolor sit amet - consectetur adipiscing elit. Integer leo est
                                           </Link>
                                        </h3>
-                                       <span className="newsBlock-author">
-                                       By
-                                       <Link to="">Mark Gauguier</Link>
+                                       <span className="newsBlock-author"> By <Link to="/person">Katarina M. Tulway</Link>
                                        </span>
                                     </div>
                                  </div>
@@ -74,12 +72,12 @@ class HomePage extends Component {
                                  <div className="newsBlock">
                                     <div className="newsBlock-head">
                                        <figure className="newsBlock-img">
-                                          <Link to="">
+                                          <Link to="/court-updates">
                                           <img alt="" src={ blog02 }/>
                                           </Link>
                                        </figure>
                                        <div className="newsBlock-details">
-                                          <span className="newsBlock-topStory">Insight</span>
+                                          <span className="newsBlock-topStory">Updates</span>
                                           <time className="newsBlock-date" datetime="2019-01-09">09.01.19</time>
                                           <time className="newsBlock-time" datetime="P0H7M">7 min</time>
                                           
@@ -87,13 +85,11 @@ class HomePage extends Component {
                                     </div>
                                     <div className="newsBlock-footer">
                                        <h3 className="newsBlock-title">
-                                          <Link className="find-tracking-link" to="">
-                                          Privacy and the right to be forgotten – removing your information from search engine results
+                                          <Link className="find-tracking-link" to="/court-updates">
+                                          Lorem ipsum dolor sit amet - consectetur adipiscing elit. Integer leo est
                                           </Link>
                                        </h3>
-                                       <span className="newsBlock-author">
-                                       By
-                                       <Link to="">Alicia Mendonca-Richards</Link>
+                                       <span className="newsBlock-author"> By <Link to="/person">Alicia M.  Richards</Link>
                                        </span>
                                     </div>
                                  </div>
@@ -102,12 +98,12 @@ class HomePage extends Component {
                                  <div className="newsBlock">
                                     <div className="newsBlock-head">
                                        <figure className="newsBlock-img">
-                                          <Link to="">
+                                          <Link to="/court-updates">
                                              <img alt="" src={ blog03 } />
                                           </Link>
                                        </figure>
                                        <div className="newsBlock-details">
-                                          <span className="newsBlock-topStory">Insight</span>
+                                          <span className="newsBlock-topStory">Updates</span>
                                           <time className="newsBlock-date" datetime="2019-01-09">09.01.19</time>
                                           <time className="newsBlock-time" datetime="P0H8M">8 min</time>
                                           
@@ -115,10 +111,10 @@ class HomePage extends Component {
                                     </div>
                                     <div className="newsBlock-footer">
                                        <h3 className="newsBlock-title">
-                                          <Link class="find-tracking-link" to="">Removing Ag Tags</Link>
+                                          <Link class="find-tracking-link" to="/court-updates">Lorem ipsum dolor sit amet - consectetur adipiscing elit. Integer leo est</Link>
                                        </h3>
                                        <span className="newsBlock-author"> By
-                                       <a href="people/jay-sattin/index.html">Jay Sattin</a>
+                                       <Link to="/person">Jay Sattin</Link>
                                        </span>
                                     </div>
                                  </div>
