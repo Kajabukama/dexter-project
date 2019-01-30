@@ -84,48 +84,34 @@ class Navigation extends Component {
                            </h3>
                            <Link to="" className="overviewLink">Overview</Link>
                            <ul className="siteNav-list-level2">
-                              <li><Link className="" to="">Banking &amp; Finance</Link></li>
-                              <li><Link className="" to="">Charity &amp; Community</Link></li>
-                              <li><Link className="" to="">Commercial</Link></li>
-                              <li><Link className="" to="">Contentious Trusts &amp; Estates</Link></li>
-                              <li><Link className="" to="">Corporate</Link></li>
-                              <li><Link className="" to="">Dispute Resolution</Link></li>
-                              <li><Link className="" to="">Employment</Link></li>
-                              <li><Link className="" to="">Family &amp; Divorce</Link></li>
-                              <li><Link className="" to="">Immigration</Link></li>
-                              <li><Link className="" to="">Information &amp; Data</Link></li>
-                              <li><Link className="" to="">Intellectual Property &amp;Technology</Link></li>
-                              <li><Link className="" to="">Private Client Services</Link></li>
-                              <li><Link className="" to="">Property</Link></li>
-                              <li><Link className="" to="">Reputation Management</Link></li>
-                              <li><Link className="" to="">Safeguarding &amp; Child Protection</Link></li>
-                              <li><Link className="" to="">Tax</Link></li>
+                              <li><Link className="" to="/corporate">Banking &amp; Finance</Link></li>
+                              <li><Link className="" to="/corporate">Charity &amp; Community</Link></li>
+                              <li><Link className="" to="/corporate">Commercial</Link></li>
+                              <li><Link className="" to="/corporate">Contentious Trusts &amp; Estates</Link></li>
+                              <li><Link className="" to="/corporate">Corporate</Link></li>
+                              <li><Link className="" to="/corporate">Dispute Resolution</Link></li>
+                              <li><Link className="" to="/corporate">Employment</Link></li>
+                              <li><Link className="" to="/corporate">Family &amp; Divorce</Link></li>
+                              <li><Link className="" to="/corporate">Immigration</Link></li>
+                              <li><Link className="" to="/corporate">Information &amp; Data</Link></li>
+                              <li><Link className="" to="/corporate">Intellectual Property &amp;Technology</Link></li>
+                              <li><Link className="" to="/corporate">Private Client Services</Link></li>
+                              <li><Link className="" to="/corporate">Property</Link></li>
+                              <li><Link className="" to="/corporate">Reputation Management</Link></li>
+                              <li><Link className="" to="/corporate">Safeguarding &amp; Child Protection</Link></li>
+                              <li><Link className="" to="/corporate">Tax</Link></li>
                            </ul>
                         </div>
                      </li>
-                     <li className="styleClients">
-                        <Link className="" to="/our-people">People</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="/our-story">Our Story</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="">Court Updates</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="/">Publications</Link>
-                     </li>
-                     <li className="styleClients">
-                        <Link className="" to="/contact-us">Contact Us</Link>
-                     </li>
+                     <li className="styleClients"><Link className="" to="/our-people">People</Link></li>
+                     <li className="styleClients"><Link className="" to="/our-story">Our Story</Link></li>
+                     <li className="styleClients"><Link className="" to="">Court Updates</Link></li>
+                     <li className="styleClients"><Link className="" to="/">Publications</Link></li>
+                     <li className="styleClients"><Link className="" to="/contact-us">Contact Us</Link></li>
                      <li className="socialShare">
                         <ul>
-                           <li>
-                              <Link to="" className="icon icon-twitter"title="">Twitter</Link>
-                           </li>
-                           <li>
-                              <Link to="" className="icon icon-linkedin" title="">Linked in</Link>
-                           </li>
+                           <li><Link to="" className="icon icon-twitter"title="">Twitter</Link></li>
+                           <li><Link to="" className="icon icon-linkedin" title="">Linked in</Link></li>
                         </ul>
                      </li>
                   </ul>
