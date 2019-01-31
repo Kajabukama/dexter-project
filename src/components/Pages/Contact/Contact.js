@@ -9,7 +9,7 @@ class Contact extends Component {
             <div style={{ height: '520px'}}>
                <MapGoogle 
                   isMarkerShown
-                  googleMapURL="https://maps.googleapis.com/maps/api/js"
+                  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOahiwLhjKZ9X4cOACBgWouIH2Ue6mLAc&v=3."
                   loadingElement={<div style={{ height: '100%' }} />}
                   containerElement={<div style={{ height: '100%' }} />}
                   mapElement={<div style={{ height: `100%` }} />}/>
