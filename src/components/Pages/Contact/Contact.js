@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import ContactHero from '../../Shared/Hero/ContactHere';
+import MapGoogle from './Map';
 
 class Contact extends Component {
    render() {
       return (
          <React.Fragment>
-            <ContactHero/>
-
+            <div style={{ height: '520px'}}>
+               <MapGoogle 
+                  isMarkerShown
+                  googleMapURL="https://maps.googleapis.com/maps/api/js"
+                  loadingElement={<div style={{ height: '100%' }} />}
+                  containerElement={<div style={{ height: '100%' }} />}
+                  mapElement={<div style={{ height: `100%` }} />}/>
+            </div>
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -16,20 +22,20 @@ class Contact extends Component {
                            <div>
                               <div className='section '>
                                  <div className='section-wrap'>
-                                    <div class='grid '>
-                                       <div class="col-6 ">
-                                          <div class="wysiwyg" data-title="">
+                                    <div className='grid '>
+                                       <div className="col-6 ">
+                                          <div className="wysiwyg" data-title="">
                                              <h2>Arush Office</h2>
                                              <p>Burka Avenue Burka Estate, <br />Plot No. 8/3, (Next to Arusha Coffee Lodge), <br />Arusha Tanzania P. O. Box 1976</p>
                                           </div>
                                        </div>
-                                       <div class="col-6 ">
-                                          <div class="wysiwyg" data-title="">
+                                       <div className="col-6 ">
+                                          <div className="wysiwyg" data-title="">
                                              <h2>Dar es Salaam Office</h2>
                                              <p>Kiko Avenue, <br />Mikocheni A, Plot No. 270,<br />P. O. Box 76949, Dar es Salaam – Tanzania</p>
                                           </div>
                                        </div>
-                                       <div class="col-12 ">
+                                       <div className="col-12 ">
                                           <div className="contactBlock">
 
                                              <div className="contactBlock-intro">
