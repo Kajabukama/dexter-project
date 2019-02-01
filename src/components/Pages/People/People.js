@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import PageHeader from '../../Shared/Hero/PageHeader';
+import Employee from './Employee';
 
 class People extends Component {
    render() {
@@ -14,101 +14,78 @@ class People extends Component {
                      <div className="col-12">
                         <ul className="listing listing-results">
                            <li className="listing-col-4">
-                              <div className="personBlock">
-                                 <figure className="personBlock-img">
-                                    <Link to="/person">
-                                       <img alt="Dexter Attorneys | Sarah Nikundiwe" src={img} style={styles.imgStyle} />
-                                    </Link>
-                                 </figure>
-                                 <div className="personBlock-details">
-                                    <Link to="/person" class="personBlock-link find-tracking-link" data-tracking="" >
-                                       <h2 className="personBlock-name">Sarah M. Nikundiwe</h2>
-                                       <span className="personBlock-jobtitle">Senior Associate</span>
-                                    </Link>
-                                    <ul className="personBlock-experties listDash">
-                                       <li>Commercial Real Estate</li>
-                                    </ul>
-                                    <ul className="personBlock-contact contactList">
-                                       <li><a className="icon-email" href="mailto:sarah.aggarwal@farrer.co.uk">sarah.nikundiwe@dexter.co.tz</a></li>
-                                    </ul>
-                                 </div>
-                              </div>
+                              <Employee 
+                                 image={ img1 } 
+                                 name="Salimu Mushi" 
+                                 title="Managing Partner" 
+                                 email="salim@dexter.co.tz" 
+                                 email_link="mailto:salim@dexter.co.tz" 
+                                 field="Commercial"/> 
                            </li>
-
                            <li className="listing-col-4">
-                              <div className="personBlock">
-                                 <figure className="personBlock-img">
-                                    <Link to="/person">
-                                       <img alt="Dexter Attorneys | Uzma Ahmed" src={ img1 } style={styles.imgStyle} />
-                                    </Link>
-                                 </figure>
-                                 <div className="personBlock-details">
-                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
-                                       <h2 className="personBlock-name">Uzma Ahmed</h2>
-                                       <span className="personBlock-jobtitle">Associate</span>
-                                    </Link>
-
-                                    <ul className="personBlock-experties listDash">
-                                       <li>Corporate</li>
-                                    </ul>
-
-                                    <ul className="personBlock-contact contactList">
-                                       <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
-                                       <li><a className="icon-linkedin" href="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</a></li>
-                                    </ul>
-                                 </div>
-                              </div>
+                              <Employee 
+                                 image={ img1 } 
+                                 name="Rodgers G. Mlacha" 
+                                 title="Associate Partner" 
+                                 email="rodgers@dexter.co.tz" 
+                                 email_link="mailto:rodgers@dexter.co.tz" 
+                                 field="Corporate"/> 
                            </li>
-
                            <li className="listing-col-4">
-                              <div className="personBlock">
-                                 <figure className="personBlock-img">
-                                    <Link to="/person">
-                                       <img alt="Dexter Attorneys | Uzma Ahmed" src={ img } style={styles.imgStyle} />
-                                    </Link>
-                                 </figure>
-                                 <div className="personBlock-details">
-                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
-                                       <h2 className="personBlock-name">Uzma Ahmed</h2>
-                                       <span className="personBlock-jobtitle">Associate</span>
-                                    </Link>
-
-                                    <ul className="personBlock-experties listDash">
-                                       <li>Corporate</li>
-                                    </ul>
-
-                                    <ul className="personBlock-contact contactList">
-                                       <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
-                                       <li><a className="icon-linkedin" href="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</a></li>
-                                    </ul>
-                                 </div>
-                              </div>
+                              <Employee 
+                                 image={ img1 } 
+                                 name="Ngereka Miraji" 
+                                 title="Associate Partner" 
+                                 email="ngereka@dexter.co.tz" 
+                                 email_link="mailto:ngereka@dexter.co.tz" 
+                                 field="Commercial"/> 
                            </li>
-
                            <li className="listing-col-4">
-                              <div className="personBlock">
-                                 <figure className="personBlock-img">
-                                    <Link to="/person">
-                                       <img alt="Dexter Attorneys | Uzma Ahmed" src={ img1 } style={styles.imgStyle} />
-                                    </Link>
-                                 </figure>
-                                 <div className="personBlock-details">
-                                    <Link to="/person" className="personBlock-link find-tracking-link" data-tracking="">
-                                       <h2 className="personBlock-name">Uzma Ahmed</h2>
-                                       <span className="personBlock-jobtitle">Associate</span>
-                                    </Link>
-
-                                    <ul className="personBlock-experties listDash">
-                                       <li>Corporate</li>
-                                    </ul>
-
-                                    <ul className="personBlock-contact contactList">
-                                       <li><a className="icon-email" href="mailto:uzma.ahmed@dexter.co.tz">uzma.ahmed@dexter.co.tz</a></li>
-                                       <li><Link className="icon-linkedin" to="http://www.linkedin.com/in/uzma-ahmed-35a557a5">Connect on LinkedIn</Link></li>
-                                    </ul>
-                                 </div>
-                              </div>
+                              <Employee 
+                                 image={ img1 } 
+                                 name="Hamidu Mushi" 
+                                 title="Associate Partner" 
+                                 email="hamidu@dexter.co.tz" 
+                                 email_link="mailto:hamidu@dexter.co.tz" 
+                                 field="Labor and Employment"/> 
                            </li>
+                           <li className="listing-col-4">
+                              <Employee 
+                                 image={ img } 
+                                 name="Dinah Manga" 
+                                 title="Associate Partner" 
+                                 email="dinah@dexter.co.tz" 
+                                 email_link="mailto:dinah@dexter.co.tz" 
+                                 field="Commercial"/> 
+                           </li>
+                           <li className="listing-col-4">
+                              <Employee 
+                                 image={ img } 
+                                 name="Bella Karoli" 
+                                 title="Associate Partner" 
+                                 email="bella@dexter.co.tz" 
+                                 email_link="mailto:bella@dexter.co.tz" 
+                                 field="Commercial"/> 
+                           </li>
+                           <li className="listing-col-4">
+                              <Employee 
+                                 image={ img } 
+                                 name="Agnes Dominic" 
+                                 title="Associate Partner" 
+                                 email="agnes@dexter.co.tz" 
+                                 email_link="mailto:agnes@dexter.co.tz" 
+                                 field="Commercial"/> 
+                           </li>
+                           <li className="listing-col-4">
+                              <Employee 
+                                 image={ img } 
+                                 name="Miriam Chepe" 
+                                 title="Office Administrator" 
+                                 email="mmiriam@dexter.co.tz" 
+                                 email_link="mailto:miriam@dexter.co.tz" 
+                                 field="Administrator"/> 
+                           </li>
+                           
                         </ul>
                      </div>
                   </div>
@@ -121,10 +98,3 @@ class People extends Component {
 export default People;
 const img = require('../../../assets/images/content/woman_office.jpg');
 const img1 = require('../../../assets/images/content/man_office.jpg');
-const styles = {
-   imgStyle: {
-      width: 150,
-      height: 170,
-      backgroundPosition: 'cover'
-   }
-}
