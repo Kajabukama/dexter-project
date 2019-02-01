@@ -19,8 +19,12 @@ class People extends Component {
                                  name="Salimu Mushi" 
                                  title="Managing Partner" 
                                  email="salim@dexter.co.tz" 
-                                 email_link="mailto:salim@dexter.co.tz" 
-                                 field="Commercial"/> 
+                                 email_link="mailto:salim@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/"
+                                 field="Commercial" /> 
                            </li>
                            <li className="listing-col-4">
                               <Employee 
@@ -29,6 +33,10 @@ class People extends Component {
                                  title="Associate Partner" 
                                  email="rodgers@dexter.co.tz" 
                                  email_link="mailto:rodgers@dexter.co.tz" 
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/"
                                  field="Corporate"/> 
                            </li>
                            <li className="listing-col-4">
@@ -38,6 +46,10 @@ class People extends Component {
                                  title="Associate Partner" 
                                  email="ngereka@dexter.co.tz" 
                                  email_link="mailto:ngereka@dexter.co.tz" 
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/"
                                  field="Commercial"/> 
                            </li>
                            <li className="listing-col-4">
@@ -46,7 +58,11 @@ class People extends Component {
                                  name="Hamidu Mushi" 
                                  title="Associate Partner" 
                                  email="hamidu@dexter.co.tz" 
-                                 email_link="mailto:hamidu@dexter.co.tz" 
+                                 email_link="mailto:hamidu@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/" 
                                  field="Labor and Employment"/> 
                            </li>
                            <li className="listing-col-4">
@@ -55,7 +71,11 @@ class People extends Component {
                                  name="Dinah Manga" 
                                  title="Associate Partner" 
                                  email="dinah@dexter.co.tz" 
-                                 email_link="mailto:dinah@dexter.co.tz" 
+                                 email_link="mailto:dinah@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/" 
                                  field="Commercial"/> 
                            </li>
                            <li className="listing-col-4">
@@ -64,7 +84,11 @@ class People extends Component {
                                  name="Bella Karoli" 
                                  title="Associate Partner" 
                                  email="bella@dexter.co.tz" 
-                                 email_link="mailto:bella@dexter.co.tz" 
+                                 email_link="mailto:bella@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/" 
                                  field="Commercial"/> 
                            </li>
                            <li className="listing-col-4">
@@ -73,7 +97,11 @@ class People extends Component {
                                  name="Agnes Dominic" 
                                  title="Associate Partner" 
                                  email="agnes@dexter.co.tz" 
-                                 email_link="mailto:agnes@dexter.co.tz" 
+                                 email_link="mailto:agnes@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/" 
                                  field="Commercial"/> 
                            </li>
                            <li className="listing-col-4">
@@ -82,7 +110,11 @@ class People extends Component {
                                  name="Miriam Chepe" 
                                  title="Office Administrator" 
                                  email="mmiriam@dexter.co.tz" 
-                                 email_link="mailto:miriam@dexter.co.tz" 
+                                 email_link="mailto:miriam@dexter.co.tz"
+                                 linkedin="https://linkedin.com" 
+                                 linkedin_link="https://linkedin.com"
+                                 twitter="https://twitter.com/"
+                                 twitter_link="https://twitter.com/" 
                                  field="Administrator"/> 
                            </li>
                            

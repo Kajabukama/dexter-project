@@ -19,7 +19,16 @@ class Employee extends Component {
                   <li>{ this.props.field }</li>
                </ul>
                <ul className="personBlock-contact contactList">
-                  <li><a className="icon-email" href={this.props.email_link}>{ this.props.email}</a></li>
+                  <li>
+                     <a className="icon-email" href={this.props.email_link}>{ this.props.email}</a>
+                  </li>
+                  <li>
+                     <a className="icon-linkedin" href={this.props.linkedin_link}>{ this.props.linkedin}</a>
+                  </li>
+                  <li>
+                     <a className="icon-twitter" href={this.props.twitter_link}>{ this.props.twitter}</a>
+                  </li>
+                  
                </ul>
             </div>
          </div>
