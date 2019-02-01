@@ -105,6 +105,7 @@ class Navigation extends Component {
                      </li>
                      <li className="styleClients"><Link className="" to="/our-people">People</Link></li>
                      <li className="styleClients"><Link className="" to="/our-story">Our Story</Link></li>
+                     <li className="styleClients"><Link className="" to="">News &amp; Insights</Link></li>
                      <li className="styleClients"><Link className="" to="">Court Updates</Link></li>
                      <li className="styleClients"><Link className="" to="/">Publications</Link></li>
                      <li className="styleClients"><Link className="" to="/contact-us">Contact Us</Link></li>
