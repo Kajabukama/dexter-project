@@ -84,22 +84,16 @@ class Navigation extends Component {
                            </h3>
                            <Link to="" className="overviewLink">Overview</Link>
                            <ul className="siteNav-list-level2">
-                              <li><Link className="" to="/corporate">Banking &amp; Finance</Link></li>
-                              <li><Link className="" to="/corporate">Charity &amp; Community</Link></li>
-                              <li><Link className="" to="/corporate">Commercial</Link></li>
-                              <li><Link className="" to="/corporate">Contentious Trusts &amp; Estates</Link></li>
-                              <li><Link className="" to="/corporate">Corporate</Link></li>
-                              <li><Link className="" to="/corporate">Dispute Resolution</Link></li>
-                              <li><Link className="" to="/corporate">Employment</Link></li>
-                              <li><Link className="" to="/corporate">Family &amp; Divorce</Link></li>
-                              <li><Link className="" to="/corporate">Immigration</Link></li>
-                              <li><Link className="" to="/corporate">Information &amp; Data</Link></li>
-                              <li><Link className="" to="/corporate">Intellectual Property &amp;Technology</Link></li>
+                              <li><Link className="" to="/banking">Banking &amp; Finance</Link></li>
+                              <li><Link className="" to="/corporate-commercial">Corporate &amp; Commercial</Link></li>
+                              <li><Link className="" to="/mergers-acquisitions">Mergers &amp; Acquisitions</Link></li>
+                              <li><Link className="" to="/dispute-resolution">Dispute Resolution</Link></li>
+                              <li><Link className="" to="/labour-immigration">Labour &amp; Immigration</Link></li>
+                              <li><Link className="" to="/real-estate">Real Estate</Link></li>
+                              <li><Link className="" to="/intellectual-property">Intellectual Property &amp;Technology</Link></li>
                               <li><Link className="" to="/corporate">Private Client Services</Link></li>
-                              <li><Link className="" to="/corporate">Property</Link></li>
-                              <li><Link className="" to="/corporate">Reputation Management</Link></li>
-                              <li><Link className="" to="/corporate">Safeguarding &amp; Child Protection</Link></li>
-                              <li><Link className="" to="/corporate">Tax</Link></li>
+                              <li><Link className="" to="/competition-law">Competition Law</Link></li>
+                              <li><Link className="" to="/taxation">Taxation</Link></li>
                            </ul>
                         </div>
                      </li>

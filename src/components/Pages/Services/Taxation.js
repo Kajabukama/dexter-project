@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Taxation extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Taxation Law" title="Taxation Law" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,15 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>When additional expertise is required Dexter shall partner with other experienced tax consultants with accounting and auditing backgrounds.Within the realm of this department services include:  </p>
+
+                                                      <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Tax Planning in all aspects of Transactional practice and Tax Litigation.</li>
+                                                         <li>Compliance with Corporate Tax;</li>
+                                                         <li>Business transactional Planning, Structuring and Restructuring;</li>
+                                                         <li>Real Estate Taxation.</li>
+                                                      </ul>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +78,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Taxation;

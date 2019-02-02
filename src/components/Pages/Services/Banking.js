@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Banking extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Banking" title="Banking" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,20 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>Our Banking and Finance Team has a wealth of experience in banking & finance transactions. We act for many of the leading banks, financial institutions as well as leading corporate borrowers, providing the full range of banking services from corporate lending to restructuring and recovery. Our experience and insight within the financial services industry means our advice is not only technically expert, but practical, commercial and market relevant. We provide specialist support in areas such as structured and general corporate banking, social finance, acquisition finance, real estate finance and asset based lending transactions.</p>
+                                                      
+                                                      {/* <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Mergers and acquisitions</li>
+                                                         <li>FCA and PRA regulated transactions</li>
+                                                         <li>Fundraising and investment</li>
+                                                         <li>Reorganisation and restructuring</li>
+                                                         <li>Joint ventures</li>
+                                                         <li>Private equity</li>
+                                                         <li>Offshore SPV transactions</li>
+                                                         <li>Alternative exits and succession planning, and</li>
+                                                         <li>Corporate governance.</li>
+                                                      </ul> */}
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +83,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Banking;

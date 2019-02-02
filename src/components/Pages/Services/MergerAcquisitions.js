@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Acquisition extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Mergers &amp; Acquisitions" title="Mergers &amp; Acquisitions" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,19 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>Dexter has extensive experience of advising local and overseas clients on all aspects of mergers and acquisitions, ranging from complex cross-border acquisitions and disposals to smaller local private company deals. We advise buyers, sellers and financial advisers on both public and private mergers and acquisitions. Our experience includes:</p>
+                                                      
+                                                      <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Public company takeover bids and responses</li>
+                                                         <li>Private company Acquisitions and Disposals;</li>
+                                                         <li>Joint Ventures</li>
+                                                         <li>Reorganisations including schemes of arrangement;</li>
+                                                         <li>Venture Capital and Private Equity;</li>
+                                                         <li>Management Buyouts</li>
+                                                         <li>Share Buybacks and Capital Reductions</li>
+                                                         
+                                                      </ul>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +82,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Acquisition;

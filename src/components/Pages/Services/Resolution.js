@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Resolution extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Dispute Resolution" title="Dispute Resolution &amp; Litigation" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,16 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>Intellectual Property work requires a deep understanding of the current ways in which IP can be used, and the creativity and imagination to protect our clients’ IP for the future. We advise small and large organizations, both commercial and charitable, as well individuals, on a wide range of issues including:</p>
+                                                      <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Branding and brand protection</li>
+                                                         <li>Confidentiality agreements</li>
+                                                         <li>Copyright law and copyright licensing</li>
+                                                         <li>Patent licensing</li>
+                                                         <li>Registration of trademarks and trade names.</li>
+                                                         <li>All manner of IP disputes including trade mark infringement, passing off, trade mark challenges and oppositions, copyright infringement</li>
+                                                      </ul>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +79,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Resolution;

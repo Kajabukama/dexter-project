@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class RealEstate extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Real Estate" title="Real Estate" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,22 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>We provide a comprehensive service which enables us to put together the appropriate package for each individual client. Our services include</p>
+                                                      <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Acquisitions and disposals</li>
+                                                         <li>Development and funding</li>
+                                                         <li>Investors and occupiers</li>
+                                                         <li>Commercial lettings</li>
+                                                         <li>Landlord and tenant matters</li>
+                                                         <li>Resolution of disputes</li>
+                                                         <li>Tax</li>
+                                                         <li>Planning</li>
+                                                         <li>Construction matters</li>
+                                                         <li>Environmental matters</li>
+                                                         <li>Banking and security work</li>
+                                                         <li>Insolvency and receivership</li>
+                                                      </ul>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +85,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default RealEstate;

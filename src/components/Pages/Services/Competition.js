@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Competition extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Competition Law" title="Competition Law" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,7 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>You might be familiar with the competition world of mergers, anti-competitive agreements and abuse of dominance. Or perhaps it is an alien concept and has suddenly become relevant to your activities. We will advise you according to your needs, in a jargon-free, approachable manner. We will help defend yourselves from spurious claims by competitors and demands from your suppliers.</p>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +70,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Competition;

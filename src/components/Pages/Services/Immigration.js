@@ -5,11 +5,11 @@ import Contact from './Contact';
 import CallAction from './CallAction';
 import HeaderPage from './Header';
 
-class Corporate extends Component {
+class Immigration extends Component {
    render() {
       return (
          <React.Fragment>
-            <HeaderPage callout="Corporate &amp; Commercial" title="Corporate &amp; Commercial" />
+            <HeaderPage callout="Labour &amp; Immigration" title="Labour &amp; Immigration Law" />
             <div className="section">
                <div className="section-wrap">
                   <div className="grid">
@@ -24,7 +24,19 @@ class Corporate extends Component {
                                              <div className='grid '>
                                                 <div className="col-12 ">
                                                    <div className="wysiwyg" id="Introduction" data-title="">
-                                                      <p>Our Corporate & Commercial team focuses on the small to mid-cap market where we have extensive experience. We understand the many practical issues of doing business and our client-focused approach is highly valued and recognized in the market.We advise across a range of sectors with core strength’s including. Our extensive experience enables us to operate efficiently and with confidence, combining our legal advice with concise, clear and pragmatic commercial advice.</p>
+                                                      <p>Our philosophy around labour is to focus on doing the right thing, and not just focus on the law. This approach assists clients to have less labor disputes and have a higher success rate, should cases be taken to the Labour Tribunals or the High Court. Services include:</p>
+                                                      
+                                                      <p>Our range of work includes</p>
+                                                      <ul className="listBullets">
+                                                         <li>Preparation, Audit and Reviews of employment policies and contracts</li>
+                                                         <li>Developing personnel policies and employer’s handbooks</li>
+                                                         <li>Providing counsel on complex HR structuring to maximize financial objectives and minimize exposure to litigation – including layoff strategies, plant shutdowns, executive compensation, non-competition, confidentiality and similar agreements and issues surrounding the enforceability and advisability of collective bargaining agreements with individual employees</li>
+                                                         <li>compliance with all labor and employment laws and regulations</li>
+                                                         <li>training of HR departments/officers on compliance and policy drafting</li>
+                                                         <li>engagement of expatriates in their enterprises</li>
+                                                         <li>advise on immigration law, including procurement of work residence permits, visas and other passes.</li>
+                                                         <li>monitoring legal development and providing clients with ad hoc advice on compliance matters and regular updates to a Compliance Matrix we prepare for each client.</li>
+                                                      </ul>
                                                    </div>
                                                 </div>
                                              </div>
@@ -70,4 +82,4 @@ class Corporate extends Component {
       )
    }
 }
-export default Corporate;
+export default Immigration;
